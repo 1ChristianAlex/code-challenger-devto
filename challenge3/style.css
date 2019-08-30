@@ -1,0 +1,9 @@
+div#root {
+  width: 100%;
+  display: block;
+}
+.diamond-section {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}

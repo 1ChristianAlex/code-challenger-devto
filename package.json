@@ -4,7 +4,7 @@
   "description": "The challenges series from dev.to",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/1ChristianAlex/code-challenger-devto/issues"
   },
-  "homepage": "https://github.com/1ChristianAlex/code-challenger-devto#readme"
+  "homepage": "https://github.com/1ChristianAlex/code-challenger-devto#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "challenge": "https://dev.to/thepracticaldev/daily-challenge-3-vowel-counter-34ni"
 }
