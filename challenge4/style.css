@@ -1,0 +1,8 @@
+.list ul {
+  list-style: none;
+}
+.list ul li {
+  padding: 10px 5px;
+  background: #f8f8f8;
+  margin: 5px;
+}
