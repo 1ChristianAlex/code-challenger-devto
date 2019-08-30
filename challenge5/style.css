@@ -1,0 +1,82 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.control {
+  position: absolute;
+  width: fit-content;
+  margin: 25px;
+  z-index: 5;
+}
+.game-area {
+  position: relative;
+  width: 100%;
+}
+.buttons {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.buttons > div {
+  position: absolute;
+}
+div#right-btn {
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0;
+}
+div#up-btn {
+  top: 0;
+  right: 0;
+  left: 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+div#left-btn {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content;
+  margin: auto 0;
+}
+div#down-btn {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: fit-content;
+  margin: 0 auto;
+}
+.buttons button {
+  background: #ffff80;
+  border: 1px solid #828250;
+  padding: 7px;
+  box-shadow: 5px 5px 10px 5px #828250;
+}
+.buttons button:focus,
+.buttons button:hover {
+  background: #7b7b27;
+  border: 1px solid #828250;
+  padding: 7px;
+  box-shadow: 5px 5px 10px 5px #828250;
+}
+.game-space {
+  width: 100%;
+  height: 500px;
+  background: #6f75c7;
+  position: relative;
+  z-index: 0;
+}
+div#img-pedro {
+  position: absolute;
+  bottom: 0;
+}
+div#icon-apple {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 47pt;
+}
