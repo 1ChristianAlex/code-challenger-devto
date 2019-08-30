@@ -1,0 +1,19 @@
+{
+  "name": "code-challenger-devto",
+  "version": "1.0.0",
+  "description": "The challenges series from dev.to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ChristianAlex/code-challenger-devto.git"
+  },
+  "author": "Christian Alexsander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1ChristianAlex/code-challenger-devto/issues"
+  },
+  "homepage": "https://github.com/1ChristianAlex/code-challenger-devto#readme"
+}
