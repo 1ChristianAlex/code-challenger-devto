@@ -73,6 +73,8 @@ div#down-btn {
 div#img-pedro {
   position: absolute;
   bottom: 0;
+  left: 5px;
+  transition: 0.5s;
 }
 div#icon-apple {
   position: absolute;
